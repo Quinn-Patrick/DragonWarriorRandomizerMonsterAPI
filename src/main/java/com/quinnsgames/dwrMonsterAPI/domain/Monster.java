@@ -22,22 +22,11 @@ public class Monster {
 	private double hurtResistance;
 	private double sleepResistance;
 	private double evasion;
-	private int runStrength;
-	private double hurtShot;
-	private int hurtBreakevenAttack;
 	private int runGroup;
 	private int fiftyPercentRunAgility;
 	private int seventyFivePercentRunAgility;
 	private int sleepInsteadOfRunAgility;
-	private int threeShotLower;
-	private int threeShotUpper;
-	private int twoShotLower;
-	private int twoShotUpper;
-	private int oneShotLower;
-	private int oneShotUpper;
 	private int twentyFivePercentAmbushAgility;
 	private double stopspellCap;
-	private double hpXpRatio;
-	private double hurtmoreShot;
 	private int brokenCap;
 }

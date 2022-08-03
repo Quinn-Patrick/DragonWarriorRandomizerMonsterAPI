@@ -20,7 +20,7 @@ public class MonsterServiceImplementation implements MonsterService {
 	@Override
 	public Monster getMonster(long id) {
 		log.info("Retrieving monster id {} from the database.", id);
-		return monsterRepo.getReferenceById(id);
+		return monsterRepo.findById(id).get();
 	}
 
 	@Override
