@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'dwr-monster-api'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_64E4114C4ECC412ABBF4A6D712F5A12A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_78026537E31944ADB3281B8E79562F3B }}
           package: '*.jar'
